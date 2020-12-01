@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-28T18:03:21Z" name="First Suite" finished-at="2020-11-28T18:03:37Z" duration-ms="15491">
+    <groups>
+    </groups>
+    <test started-at="2020-11-28T18:03:21Z" name="Firefoxtests" finished-at="2020-11-28T18:03:30Z" duration-ms="8717">
+      <class name="com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation">
+        <test-method is-config="true" signature="Before(java.lang.String)[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@78dd667e]" started-at="2020-11-28T18:03:21Z" name="Before" finished-at="2020-11-28T18:03:26Z" duration-ms="4628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method signature="LaunchTables()[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@78dd667e]" started-at="2020-11-28T18:03:26Z" name="LaunchTables" finished-at="2020-11-28T18:03:29Z" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTables -->
+        <test-method is-config="true" signature="After()[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@78dd667e]" started-at="2020-11-28T18:03:29Z" name="After" finished-at="2020-11-28T18:03:30Z" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation -->
+    </test> <!-- Firefoxtests -->
+    <test started-at="2020-11-28T18:03:30Z" name="Chrometests" finished-at="2020-11-28T18:03:37Z" duration-ms="6725">
+      <class name="com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation">
+        <test-method is-config="true" signature="Before(java.lang.String)[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@60dcc9fe]" started-at="2020-11-28T18:03:30Z" name="Before" finished-at="2020-11-28T18:03:34Z" duration-ms="3950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method signature="LaunchTables()[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@60dcc9fe]" started-at="2020-11-28T18:03:34Z" name="LaunchTables" finished-at="2020-11-28T18:03:36Z" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTables -->
+        <test-method is-config="true" signature="After()[pri:0, instance:com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation@60dcc9fe]" started-at="2020-11-28T18:03:36Z" name="After" finished-at="2020-11-28T18:03:37Z" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- com.CrossBrowserTesting.framework.CrossBrowsertestingFrameworkAutomation -->
+    </test> <!-- Chrometests -->
+  </suite> <!-- First Suite -->
+</testng-results>
